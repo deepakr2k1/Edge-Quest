@@ -1,4 +1,4 @@
-package com.example.cpdebuggerbackend.exceptions;
+package com.example.cpEdgeCaseFinder.exceptions;
 
 import lombok.Data;
 

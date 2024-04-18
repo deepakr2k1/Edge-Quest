@@ -1,7 +1,7 @@
-package com.example.cpdebuggerbackend.utils;
+package com.example.cpEdgeCaseFinder.utils;
 
-import com.example.cpdebuggerbackend.constants.AppConstants.Lang;
-import com.example.cpdebuggerbackend.constants.AppConstants.Filetype;
+import com.example.cpEdgeCaseFinder.constants.AppConstants.Lang;
+import com.example.cpEdgeCaseFinder.constants.AppConstants.Filetype;
 
 import java.io.*;
 import java.time.LocalDateTime;
@@ -9,7 +9,7 @@ import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.example.cpdebuggerbackend.constants.AppConstants.WORKING_DIR;
+import static com.example.cpEdgeCaseFinder.constants.AppConstants.WORKING_DIR;
 
 public class Utils {
 

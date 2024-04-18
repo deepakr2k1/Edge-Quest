@@ -1,4 +1,4 @@
-package com.example.cpdebuggerbackend.models;
+package com.example.cpEdgeCaseFinder.models;
 import lombok.Builder;
 import lombok.Data;
 

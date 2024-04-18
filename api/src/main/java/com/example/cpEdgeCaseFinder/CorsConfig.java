@@ -1,4 +1,4 @@
-package com.example.cpdebuggerbackend;
+package com.example.cpEdgeCaseFinder;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

@@ -1,10 +1,10 @@
-package com.example.cpdebuggerbackend.services;
+package com.example.cpEdgeCaseFinder.services;
 
-import com.example.cpdebuggerbackend.exceptions.ExecTimedOutException;
-import com.example.cpdebuggerbackend.exceptions.SegmentationFaultException;
-import com.example.cpdebuggerbackend.models.Code;
-import com.example.cpdebuggerbackend.models.ResultDto;
-import com.example.cpdebuggerbackend.utils.Utils;
+import com.example.cpEdgeCaseFinder.exceptions.ExecTimedOutException;
+import com.example.cpEdgeCaseFinder.exceptions.SegmentationFaultException;
+import com.example.cpEdgeCaseFinder.models.Code;
+import com.example.cpEdgeCaseFinder.models.ResultDto;
+import com.example.cpEdgeCaseFinder.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
-import static com.example.cpdebuggerbackend.constants.AppConstants.*;
+import static com.example.cpEdgeCaseFinder.constants.AppConstants.*;
 
 @Service
 public class EdgeCaseFinderService {

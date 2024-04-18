@@ -1,15 +1,8 @@
-package com.example.cpdebuggerbackend.exceptions;
+package com.example.cpEdgeCaseFinder.exceptions;
 
-import com.example.cpdebuggerbackend.constants.AppConstants.Filetype;
-import com.example.cpdebuggerbackend.utils.Utils;
-import jdk.jshell.execution.Util;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
+import com.example.cpEdgeCaseFinder.constants.AppConstants.Filetype;
+import com.example.cpEdgeCaseFinder.utils.Utils;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.util.Arrays;
-import java.util.List;
 
 @Data
 public class CompilationException extends Exception {

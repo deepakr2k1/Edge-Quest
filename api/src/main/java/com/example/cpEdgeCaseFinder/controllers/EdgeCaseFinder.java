@@ -1,9 +1,9 @@
-package com.example.cpdebuggerbackend.controllers;
+package com.example.cpEdgeCaseFinder.controllers;
 
-import com.example.cpdebuggerbackend.models.Code;
-import com.example.cpdebuggerbackend.models.CodeRunnerDto;
-import com.example.cpdebuggerbackend.models.ResultDto;
-import com.example.cpdebuggerbackend.services.EdgeCaseFinderService;
+import com.example.cpEdgeCaseFinder.models.Code;
+import com.example.cpEdgeCaseFinder.models.CodeRunnerDto;
+import com.example.cpEdgeCaseFinder.models.ResultDto;
+import com.example.cpEdgeCaseFinder.services.EdgeCaseFinderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

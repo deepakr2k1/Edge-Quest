@@ -1,12 +1,12 @@
-package com.example.cpdebuggerbackend.services;
+package com.example.cpEdgeCaseFinder.services;
 
-import com.example.cpdebuggerbackend.exceptions.CompilationException;
-import com.example.cpdebuggerbackend.utils.Utils;
+import com.example.cpEdgeCaseFinder.exceptions.CompilationException;
+import com.example.cpEdgeCaseFinder.utils.Utils;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
 
-import static com.example.cpdebuggerbackend.constants.AppConstants.*;
+import static com.example.cpEdgeCaseFinder.constants.AppConstants.*;
 
 @Service
 public class Compiler {

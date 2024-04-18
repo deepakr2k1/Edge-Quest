@@ -1,6 +1,5 @@
-package com.example.cpdebuggerbackend.exceptions;
+package com.example.cpEdgeCaseFinder.exceptions;
 
-import com.example.cpdebuggerbackend.utils.Utils;
 import lombok.Data;
 
 @Data

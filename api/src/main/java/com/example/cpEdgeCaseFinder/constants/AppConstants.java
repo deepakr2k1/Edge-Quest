@@ -1,7 +1,4 @@
-package com.example.cpdebuggerbackend.constants;
-
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+package com.example.cpEdgeCaseFinder.constants;
 
 public class AppConstants {
 
