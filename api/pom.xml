@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>cp-edge-case-finder-backend</artifactId>
+	<artifactId>cp-edge-case-finder-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cp-edge-case-finder-backend</name>
+	<name>cp-edge-case-finder-api</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>
